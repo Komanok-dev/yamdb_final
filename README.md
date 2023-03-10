@@ -1,7 +1,8 @@
-https://github.com/Komanok-dev/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
 
-# Проект YaMDb
-​
+![# Проект YaMDb](https://github.com/Komanok-dev/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
+
+
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Titles). Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) может быть расширен администратором (например, можно добавить категорию «изобразительное искусство» или «Ювелирка»).
 ​
 ## Стек технологий: 
@@ -49,4 +50,4 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input 
 ```
 
-Host: https://komanok.hopto.org
+Host: http://komanok.hopto.org
