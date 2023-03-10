@@ -1,4 +1,5 @@
 from django.urls import include, path
+
 from api.v1.urls import router_v1
 from api.v1.views import SignupViewSet, TokenViewSet
 
